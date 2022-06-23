@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.btnt {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.btna {
+  color: white;
+  background-color: red;
+  border-color: red;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.mainbody {
+  background-color: aquamarine;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  border: 2px solid black;
+}
+
+tr,
+td,
+th {
+  border: 2px solid black;
+  text-align: center;
+}
+
+.formtag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formtag>button {
+  background-color: green;
+  color: white;
+  border-color: green;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.minus {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+.plus {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+.editbtn {
+  background-color: orange;
+  color: black;
+  border-radius: 10px;
+}
+
+.deletebtn {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
 }
